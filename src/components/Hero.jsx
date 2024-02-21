@@ -3,6 +3,7 @@ function Hero() {
 
     return (
         <section className=" py-10 px-5 flex flex-col items-center gap-7">
+            <div className="intro w-60 "></div>
             <h1 className=" text-white text-3xl text-center font-bold">
                 All your files in one secure location, accessible anywhere.
             </h1>
