@@ -28,3 +28,11 @@ nav a.logo {
     background-image: url('./images/logo.svg');
     background-size: contain;
 }
+
+button.get-started {
+    background-color: var(--Blue-inside-call-to-action);
+}
+
+button.get-started:hover {
+    background-color: var(--Cyan-inside-call-to-action);
+}

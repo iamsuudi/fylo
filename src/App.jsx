@@ -1,12 +1,17 @@
-import Nav from "./components/Nav"
+import Nav from "./components/Nav";
+import Hero from "./components/Hero";
 
 function App() {
-
-  return (
-    <>
-      <Nav />
-    </>
-  )
+    return (
+        <>
+            <header>
+                <Nav />
+            </header>
+            <main>
+                <Hero />
+            </main>
+        </>
+    );
 }
 
-export default App
+export default App;
