@@ -1,6 +1,7 @@
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
+import Productive from "./components/Productive";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <main>
                 <Hero />
                 <Services />
+                <Productive />
             </main>
         </>
     );

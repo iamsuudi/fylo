@@ -66,3 +66,17 @@ p#Store {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+div.productive {
+    background-image: url("./images/illustration-stay-productive.png");
+    background-size: cover;
+    aspect-ratio: 615 / 465;
+}
+
+a.see-how-fylo-works {
+    color: var(--Cyan-inside-call-to-action);
+    width: fit-content;
+    padding-right: 1.5rem;
+    background: url('./images/icon-arrow.svg') no-repeat right;
+    background-size: 1.3rem;
+}
