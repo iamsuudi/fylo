@@ -42,3 +42,27 @@ div.intro {
     background-size: cover;
     aspect-ratio: 720 / 534;
 }
+
+p#Access {
+    background-image: url('./images/icon-access-anywhere.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+p#Security {
+    background-image: url('./images/icon-security.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+p#Real-time {
+    background-image: url('./images/icon-collaboration.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+p#Store {
+    background-image: url('./images/icon-any-file.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
