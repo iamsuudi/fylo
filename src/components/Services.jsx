@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 function Service({ title, description }) {
     return (
-        <div className=" flex flex-col items-center gap-2">
+        <div className=" flex flex-col items-center gap-2 max-w-sm">
             <p id={title.split(" ")[0]} className=' w-20 h-20 mb-5'></p>
             <h3 className=' text-white font-bold text-lg'>{title}</h3>
             <p className=' text-slate-200 text-center text-sm'>{description}</p>
@@ -33,14 +33,14 @@ const services = [
     },
     {
         title: "Store any type of file",
-        desscription:
+        description:
             "Whether you're sharing holidays photos or work documents, Fylo has you covered allowing, for all file types to be securely stored and shared.",
     },
 ];
 
 function Services() {
     return (
-        <section className=' flex flex-wrap gap-10 py-20 px-5 justify-center items-center'>
+        <section className=' flex flex-wrap gap-32 py-20 px-5 justify-center items-center lg:justify-between w-full'>
             {services.map((service, index) => (
                 <Service
                     key={index}

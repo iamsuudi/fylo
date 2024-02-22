@@ -23,9 +23,8 @@ body {
     background-color: var(--main-bg);
 }
 
-
 nav a.logo {
-    background-image: url('./images/logo.svg');
+    background-image: url("./images/logo.svg");
     background-size: contain;
 }
 
@@ -38,31 +37,31 @@ button.get-started:hover {
 }
 
 div.intro {
-    background-image: url('./images/illustration-intro.png');
+    background-image: url("./images/illustration-intro.png");
     background-size: cover;
     aspect-ratio: 720 / 534;
 }
 
 p#Access {
-    background-image: url('./images/icon-access-anywhere.svg');
+    background-image: url("./images/icon-access-anywhere.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 p#Security {
-    background-image: url('./images/icon-security.svg');
+    background-image: url("./images/icon-security.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 p#Real-time {
-    background-image: url('./images/icon-collaboration.svg');
+    background-image: url("./images/icon-collaboration.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 p#Store {
-    background-image: url('./images/icon-any-file.svg');
+    background-image: url("./images/icon-any-file.svg");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -77,8 +76,17 @@ a.see-how-fylo-works {
     color: var(--Cyan-inside-call-to-action);
     width: fit-content;
     padding-right: 1.5rem;
-    background: url('./images/icon-arrow.svg') no-repeat right;
+    background: url("./images/icon-arrow.svg") no-repeat right;
     background-size: 1.3rem;
+}
+
+section#testimonials {
+    background: url("./images/bg-quotes.png"), url("./images/bg-quotes.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 3rem;
+    background-position:
+        3rem top,
+        right 3rem bottom 0;
 }
 
 div.testimony {
@@ -97,24 +105,28 @@ input.get-started:hover {
     background-color: var(--Cyan-inside-call-to-action);
 }
 
-footer section {
-    background: url('./images/logo.svg') no-repeat;
-    background-position: 2rem 2rem;
+div.logo {
+    background: url("./images/logo.svg") no-repeat;
+    background-size: contain;
 }
 
 p.location {
-    background: url('./images/icon-location.svg') no-repeat;
+    background: url("./images/icon-location.svg") no-repeat;
     background-position: left 0.4rem;
 }
 
 li.phone {
-    background: url('./images/icon-phone.svg') no-repeat;
+    background: url("./images/icon-phone.svg") no-repeat;
     background-position: left 0.4rem;
     background-size: 0.8rem;
 }
 
 li.email {
-    background: url('./images/icon-email.svg') no-repeat;
+    background: url("./images/icon-email.svg") no-repeat;
     background-position: left 0.4rem;
     background-size: 0.8rem;
+}
+
+footer {
+    background-color: var(--footer-bg);
 }

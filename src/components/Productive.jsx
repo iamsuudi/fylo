@@ -2,9 +2,9 @@
 function Productive() { 
 
     return (
-        <section className=" py-20 px-5 flex flex-wrap items-center justify-center gap-10">
-            <div className="productive w-80"></div>
-            <div className=" text-white flex flex-col gap-3">
+        <section className=" py-20 px-5 my-20 flex flex-wrap items-center justify-center gap-10 max-w-screen-lg">
+            <div className="productive w-80 lg:w-96"></div>
+            <div className=" text-white flex flex-col gap-5 max-w-xl">
                 <h3 className=" text-white text-2xl font-bold">Stay productive, wherever you are </h3>
                 <p>
                     Never let location be an issue when accessing your files.

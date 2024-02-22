@@ -9,17 +9,17 @@ import Footer from "./components/Footer";
 function App() {
     return (
         <>
-            <header>
+            <header className=" w-full flex justify-center  max-w-screen-lg">
                 <Nav />
             </header>
-            <main>
+            <main className="main z-10 w-full flex flex-col items-center justify-center max-w-screen-lg">
                 <Hero />
                 <Services />
                 <Productive />
                 <Testimonials />
                 <Email />
             </main>
-            <footer>
+            <footer className=" -z-10 w-full flex justify-center  max-w-screen-lg">
                 <Footer />
             </footer>
         </>

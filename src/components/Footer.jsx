@@ -1,34 +1,31 @@
 function Footer() {
     return (
-        <section className="relative text-slate-300 py-32 px-5">
-
-            <div className=" flex flex-wrap gap-10">
-
+        <section className="relative text-slate-300 pt-80 pb-32 px-10 md:px-20 max-w-screen-lg w-full flex flex-wrap justify-start gap-20 items-strech">
+            <div className="logo absolute top-52 h-20 w-40"></div>
+            <div className="footer flex flex-col gap-10 justify-between xl:flex-row">
                 <p className="location pl-8 w-80">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua
                 </p>
 
-                <ul className=" flex flex-col gap-3 w-80">
+                <ul className=" flex flex-col gap-3 w-60">
                     <li className="phone pl-8">+1-543-123-4567</li>{" "}
                     <li className="email pl-8">example@fylo.com</li>
                 </ul>
-
+            </div>
+            <div className=" flex flex-col gap-10 justify-center xl:flex-row">
                 <About />
 
                 <Contact />
-
             </div>
-
             <Attribution />
         </section>
     );
 }
 function Attribution() {
-
     return (
-        <p className="attribution absolute bottom-0 mx-auto text-xs p-5">
+        <p className="attribution absolute bottom-0 left-0 w-full text-center text-xs py-5">
             Challenge by{" "}
             <a
                 href="https://www.frontendmentor.io?ref=challenge"
@@ -50,9 +47,8 @@ function Attribution() {
 }
 
 function Contact() {
-
     return (
-        <ul className=" flex flex-col gap-3 w-80">
+        <ul className=" flex flex-col gap-3 w-32">
             <li>
                 <a href="#" className=" hover:text-white">
                     Contact Us
@@ -73,9 +69,8 @@ function Contact() {
 }
 
 function About() {
-
     return (
-        <ul className=" flex flex-col gap-3 w-80">
+        <ul className=" flex flex-col gap-3 w-32">
             <li>
                 <a href="#" className=" hover:text-white">
                     About Us
