@@ -84,3 +84,15 @@ a.see-how-fylo-works {
 div.testimony {
     background-color: var(--testimonials-bg);
 }
+
+section.email {
+    background-color: var(--intro-and-email-sign-up-bg);
+}
+
+input.get-started {
+    background-color: var(--Blue-inside-call-to-action);
+}
+
+input.get-started:hover {
+    background-color: var(--Cyan-inside-call-to-action);
+}
