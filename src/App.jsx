@@ -2,6 +2,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Productive from "./components/Productive";
+import Testimonials from "./components/Testimonials";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                 <Hero />
                 <Services />
                 <Productive />
+                <Testimonials />
             </main>
         </>
     );

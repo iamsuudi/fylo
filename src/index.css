@@ -80,3 +80,7 @@ a.see-how-fylo-works {
     background: url('./images/icon-arrow.svg') no-repeat right;
     background-size: 1.3rem;
 }
+
+div.testimony {
+    background-color: var(--testimonials-bg);
+}
