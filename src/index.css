@@ -96,3 +96,25 @@ input.get-started {
 input.get-started:hover {
     background-color: var(--Cyan-inside-call-to-action);
 }
+
+footer section {
+    background: url('./images/logo.svg') no-repeat;
+    background-position: 2rem 2rem;
+}
+
+p.location {
+    background: url('./images/icon-location.svg') no-repeat;
+    background-position: left 0.4rem;
+}
+
+li.phone {
+    background: url('./images/icon-phone.svg') no-repeat;
+    background-position: left 0.4rem;
+    background-size: 0.8rem;
+}
+
+li.email {
+    background: url('./images/icon-email.svg') no-repeat;
+    background-position: left 0.4rem;
+    background-size: 0.8rem;
+}
