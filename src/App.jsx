@@ -19,7 +19,7 @@ function App() {
                 <Testimonials />
                 <Email />
             </main>
-            <footer className=" -z-10 w-full flex justify-center  max-w-screen-lg">
+            <footer className=" z-0 w-full flex justify-center  max-w-screen-lg">
                 <Footer />
             </footer>
         </>

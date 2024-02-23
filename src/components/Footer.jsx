@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
     return (
         <section className="relative text-slate-300 pt-80 pb-32 px-10 md:px-20 max-w-screen-lg w-full flex flex-wrap justify-start gap-20 items-strech">
@@ -25,22 +27,22 @@ function Footer() {
 }
 function Attribution() {
     return (
-        <p className="attribution absolute bottom-0 left-0 w-full text-center text-xs py-5">
+        <p className="attribution z-20 absolute bottom-0 left-0 w-full text-center text-xs py-5">
             Challenge by{" "}
-            <a
-                href="https://www.frontendmentor.io?ref=challenge"
+            <Link
+                to="https://www.frontendmentor.io?ref=challenge"
                 target="_blank"
                 className=" text-cyan-400"
             >
                 Frontend Mentor
-            </a>
+            </Link>
             . Coded by{" "}
-            <a
-                href="https://www.linkedin/in/abdulfetahsuudi"
+            <Link
+                to="https://www.linkedin/in/abdulfetahsuudi"
                 className=" text-cyan-400"
             >
                 Abdulfetah
-            </a>
+            </Link>
             .
         </p>
     );
@@ -50,19 +52,19 @@ function Contact() {
     return (
         <ul className=" flex flex-col gap-3 w-32">
             <li>
-                <a href="#" className=" hover:text-white">
+                <Link href="#" className=" hover:text-white">
                     Contact Us
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="#" className=" hover:text-white">
+                <Link href="#" className=" hover:text-white">
                     Terms
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="#" className=" hover:text-white">
+                <Link href="#" className=" hover:text-white">
                     Privacy
-                </a>
+                </Link>
             </li>
         </ul>
     );
@@ -72,24 +74,24 @@ function About() {
     return (
         <ul className=" flex flex-col gap-3 w-32">
             <li>
-                <a href="#" className=" hover:text-white">
+                <Link to="#" className=" hover:text-white">
                     About Us
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="#" className=" hover:text-white">
+                <Link to="#" className=" hover:text-white">
                     Jobs
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="#" className=" hover:text-white">
+                <Link to="#" className=" hover:text-white">
                     Press
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="#" className=" hover:text-white">
+                <Link to="#" className=" hover:text-white">
                     Blog
-                </a>
+                </Link>
             </li>
         </ul>
     );
