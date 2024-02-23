@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { testimonials } from "../data";
 
 function Testimony({ comment, clientInformation }) {
     return (
@@ -39,36 +40,6 @@ Client.propTypes = {
     name: PropTypes.string,
     career: PropTypes.string,
 };
-
-const testimonials = [
-    {
-        comment:
-            "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
-        clientInformation: {
-            imageUrl: "./images/profile-1.jpg",
-            name: "Satish Patel",
-            career: "Founder & CEO, Huddle",
-        },
-    },
-    {
-        comment:
-            "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
-        clientInformation: {
-            imageUrl: "./images/profile-2.jpg",
-            name: "Bruce McKenzie",
-            career: "Founder & CEO, Huddle",
-        },
-    },
-    {
-        comment:
-            "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
-        clientInformation: {
-            imageUrl: "./images/profile-3.jpg",
-            name: "Iva Boyd",
-            career: "Founder & CEO, Huddle",
-        },
-    },
-];
 
 function Testimonials() {
     return (
