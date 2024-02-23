@@ -1,19 +1,20 @@
+import { Link } from "react-router-dom";
 
 function Nav() {
 
     return (
         <nav className="p-8 flex justify-between max-w-screen-lg w-full">
-            <a href="#" className="logo h-6 w-20">
-            </a>
+            <Link to="#" className="logo h-6 w-20">
+            </Link>
             <ul className=" flex gap-4 text-slate-300 ">
                 <li>
-                    <a href="#">Features</a>
+                    <Link to="#">Features</Link>
                 </li>
                 <li>
-                    <a href="#">Team</a>
+                    <Link to="#">Team</Link>
                 </li>
                 <li>
-                    <a href="#">Sign In</a>
+                    <Link to="#">Sign In</Link>
                 </li>
             </ul>
         </nav>

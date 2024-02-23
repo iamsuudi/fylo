@@ -1,6 +1,6 @@
 function Email() {
     return (
-        <section className="email w-80 sm:min-w-[500px] lg:min-w-[700px] lg:px-20 py-20 px-10 text-white flex flex-col gap-10 items-center -mb-32 z-10">
+        <section className="email w-80 sm:min-w-[500px] lg:min-w-[700px] lg:px-20 py-20 px-10 text-white flex flex-col gap-10 items-center -mb-32 z-20">
             <h3 className=" font-black text-2xl md:text-4xl">
                 Get early access today
             </h3>
